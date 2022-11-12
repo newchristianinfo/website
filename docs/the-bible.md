@@ -1,4 +1,5 @@
 # The Bible
+<Nav></Nav>
 
 <Todo>
 Some overview of accuracy of the bible

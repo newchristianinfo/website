@@ -1,4 +1,5 @@
 # Church Leadership
+<Nav></Nav>
 
 <Todo>
 (Discuss qualifications of a teacher/leader)

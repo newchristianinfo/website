@@ -1,4 +1,5 @@
 # Protagonist vs the Antagonist
+<Nav></Nav>
 
 One of God's creation decided he wanted to be his own God.  We call him Satan.
 <br><br>

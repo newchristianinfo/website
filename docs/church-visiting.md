@@ -1,4 +1,5 @@
 # Church Visiting
+<Nav></Nav>
 
 <Todo>
 Jesus' analogy of the church as a bride.

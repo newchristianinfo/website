@@ -1,4 +1,5 @@
 # Peace
+<Nav></Nav>
 
 <Verse>
 Paul's quote that we are either a slave to freedom, or slave to sin. 

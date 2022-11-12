@@ -1,4 +1,5 @@
 # Two ways of trying to be our own God
+<Nav></Nav>
 
 <Todo>
 Older brother / Younger brother. From the parable of the prodigal son.

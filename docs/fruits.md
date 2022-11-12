@@ -1,4 +1,5 @@
 # Fruits
+<Nav></Nav>
 
 <Todo>
 Jesus's quote "can an apple tree grow a different fruit"?

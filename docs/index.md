@@ -1,4 +1,6 @@
 # Welcome to the family
+<Nav></Nav>
+
 <div style="margin-top:2em; text-align:center;">
 <RoughNotation isShow type="underline">
 As a new Christian, your life has exciting potential because you have:

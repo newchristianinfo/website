@@ -1,6 +1,7 @@
 # My Own Jesus
+<Nav></Nav>
 
-Jesus has all powerful, all knowing, and saves us from Hell.
+Jesus is all powerful, all knowing, and saves us from Hell.
 That is something that everyone seems to understand and can appreciate.
 <br><br>
 But you may hear people say things like "I think you're following a different Jesus" or "That's not the Jesus I know"

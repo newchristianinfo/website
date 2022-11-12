@@ -1,2 +1,3 @@
 # Idols
+<Nav></Nav>
 

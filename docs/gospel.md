@@ -1,1 +1,2 @@
-# The Gospel - "Good News"
+# The Gospel - "Good News
+<Nav></Nav>

@@ -1,4 +1,5 @@
 # Kingdom
+<Nav></Nav>
 
 <Todo>
 (Could mention the "not a democracy" idea)

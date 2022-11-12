@@ -1,4 +1,5 @@
 # Church Membership
+<Nav></Nav>
 
 <Todo>
 (verse about equipping the saints)

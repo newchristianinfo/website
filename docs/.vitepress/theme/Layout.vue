@@ -11,7 +11,7 @@ const isCurrentSection = links => links.filter(isCurrentPage).length
 </script>
 
 <template>
-	<nav>
+	<!-- <nav>
 		<div v-for="section in theme.sidebar" class="section">
 			<RoughNotation is-show type="box" animate="false" color="blue">
 				{{ section.text }}
@@ -33,27 +33,19 @@ const isCurrentSection = links => links.filter(isCurrentPage).length
 				</a>
 			</div>
 		</div>
-	</nav>
-	<main style="margin-left:15%">
-	<!-- 	<div style="float:right; margin-right:3%;">
-			Page Title<br />
-			<br />
-			<label>sample label</label>
-		</div> -->
-
-		<!-- <h1 v-if="data.title">{{ data.title }}</h1> -->
-		<div class="body">
-			<Content />
-		</div>
-
-		<br />
-		<br />
+	</nav> -->
+	<main>
+		<Content />
 	</main>
 </template>
 
 <style>
 ul {
 	list-style: circle;
+	margin-left: 40px;
+}
+ol {
+	list-style: decimal;
 	margin-left: 40px;
 }
 body {
@@ -70,7 +62,7 @@ nav {
 	width: 16%;
 	text-align: center;
 }
-nav a {
+a {
 	color: rgb(140, 140, 255)
 }
 nav .section {
@@ -116,11 +108,13 @@ h2 {
 label {
 	cursor: pointer;
 }
-.body {
+main {
 	line-height: 1.7em;
 	clear: both;
 	padding-right: 10px;
 	display: flex;
+	margin-left: 14%;
+	margin-bottom: 3em;
 }
 /* .body h1 {
 	display: none;

@@ -1,4 +1,5 @@
 # Baptism
+<Nav></Nav>
 
 Before we get too deep, baptism is:
 -One of only two rituals given to us by Jesus

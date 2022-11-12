@@ -1,4 +1,5 @@
 # God's Economy
+<Nav></Nav>
 
 It's instinctive to make all our choices based on a cost/benefit analysts. To exchange effort or treasure for an expected greater treasure or utility for ourself.
 <br><br>

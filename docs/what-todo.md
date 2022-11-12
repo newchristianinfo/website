@@ -1,4 +1,5 @@
 # What we get to do with God
+<Nav></Nav>
 
 The point of this topic is to demonstrate how finite (short/limited) the things are that God has asked of his children.
 <br><br>
