@@ -20,16 +20,14 @@ const isCurrentSection = links => links.filter(isCurrentPage).length
 			     v-for="item in section.items">
 				<RoughNotation :is-show="isCurrentPage(item)" type="highlight"
 						color="#ffff006c" tag="span">
-					<a :href="item.link" @click="go(item.link)" v-html="item.text"></a>
+					<a :href="item.link" v-html="item.text"></a>
 				</RoughNotation>
 			</div>
 			<div v-else>
 				<a :href="section.items[0].link"
-				   @click="go(section.items[0].link)"
 				   v-html="section.items[0].text"></a><br />
 				<br />
 				<a :href="section.items[0].link"
-				   @click="go(section.items[1].link)"
 				   style="text-emphasis:italic">
 				   ...{{ section.items.length-1 }} more
 				</a>
@@ -37,13 +35,13 @@ const isCurrentSection = links => links.filter(isCurrentPage).length
 		</div>
 	</nav>
 	<main style="margin-left:15%">
-		<div style="float:right; margin-right:3%;">
+	<!-- 	<div style="float:right; margin-right:3%;">
 			Page Title<br />
 			<br />
 			<label>sample label</label>
-		</div>
+		</div> -->
 
-		<h1 v-if="data.title">{{ data.title }}</h1>
+		<!-- <h1 v-if="data.title">{{ data.title }}</h1> -->
 		<div class="body">
 			<Content />
 		</div>
@@ -54,6 +52,10 @@ const isCurrentSection = links => links.filter(isCurrentPage).length
 </template>
 
 <style>
+ul {
+	list-style: circle;
+	margin-left: 40px;
+}
 body {
  	background-image: url("/lined-paper-bg.jpg");
 	background-repeat: repeat-y;
@@ -115,14 +117,14 @@ label {
 	cursor: pointer;
 }
 .body {
-	line-height: 1.5em;
+	line-height: 1.7em;
 	clear: both;
 	padding-right: 10px;
 	display: flex;
 }
-.body h1 {
+/* .body h1 {
 	display: none;
-}
+} */
 .header-anchor {
 	display: none;
 }
